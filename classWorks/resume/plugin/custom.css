@@ -199,7 +199,7 @@ footer>.position-fixed>a {
   opacity: 1;
 }
 footer{
-  height: 50vh;
+  height: 75vh;
 }
 @page{
   size: A4 portrait;
@@ -262,7 +262,7 @@ footer{
     display: none;
   }
   #alicePortfolio {
-    transform: translateY(-10%);
+    transform: translateY(-5%);
   }
   #alicePortfolio .file{
     display: inline-flex;
