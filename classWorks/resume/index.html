@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css代入 -->
+  <link rel="stylesheet" href="plugin/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+  crossorigin="anonymous"></script>
+  <!-- google fonts套用 -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- (自己的)css外掛 -->
+  <link rel="stylesheet" href="plugin/custom.css">
+  <title>Wonderland</title>
+  <!-- icon外掛 -->
+  <link rel="shortcut icon" href="cat.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+  integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
+  <!-- <script scr="plugin/bootstrap.bundle.js"></script> -->
+  <!-- jQ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--導覽列-->
+<header id="aliceMenu" class="fixed-top">
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo5.png" style="display:block; width:100%;height:50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#aliceNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="aliceNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#aliceAbout"><i class="fab fa-adn me-2"></i>About</a>
+          </li>
+          <!-- <i class="fas fa-street-view me-2"></i> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#aliceExperience"><i class="far fa-heart me-2"></i>Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aliceAbility"><i class="fas fa-heart me-2"></i>Ability</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#alicePortfolio"><i class="far fa-heart me-2"></i>Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aliceContact"><i class="fas fa-heart me-2"></i>Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./logintest.html"><i class="fas fa-user-cog me-2"></i>Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!--about-->
+  <section id="aliceAbout" class="py-5">
+    <div class="container d-flex flex-column justify-content-center">
+      <div class="row py-5">
+        <!-- <div class="justify-content-center justify-content-lg-center "> -->
+          <img id="myphoto" src="pic1.jpg"  class="image-fluid col-xl-5">
+        <!-- </div> -->
+        <div id="content" class="col-xl-7">
+          <h1 class="text-center">Hello,
+            <br>
+            I'm Alice
+          </h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio ratione dolorem aliquam? Quasi officiis dolore sapiente esse. Illum fugiat unde laboriosam tenetur ratione quas, ea accusamus nam odit sed obcaecati?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio ratione dolorem aliquam? Quasi officiis dolore sapiente esse. Illum fugiat unde laboriosam tenetur ratione quas, ea accusamus nam odit sed obcaecati?</p>
+          <div id="downloadcv">
+            <!-- <button> -->
+              <a class="btn btn-outline-info" role="button">Download CV</a>
+            <!-- </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Experience-->
+  <section id="aliceExperience" class="py-5">
+    <header class="text-center container">
+      <h2 class="text-light mb-5">Experience</h2>
+    </header>
+    <!--內容板塊-->
+    <article class="py-5 container">
+      <ul class="row list-unstyled gy-4 text-light">
+        <li class="col-12 col-lg-6">
+          <!--1.summary-->
+          <div class="gy-5 d-flex align-items-center row">
+            <div class="cv-item col-12">
+              <h5>Summary</h5>
+              <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam vero repellendus assumenda nemo delectus magnam ratione odio est laborum asperiores, aliquid, unde magni accusantium dolorum. Velit, error. Unde molestiae laudantium placeat hic! Maiores quisquam beatae debitis similique minima provident reprehenderit quis eius voluptatibus vel libero ex quibusdam.</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-12 col-lg-6">
+          <!--2.education-->
+          <div class="gy-5 d-flex align-items-center row">
+            <div class="cv-item col-12">
+              <h5>Education</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam vero repellendus assumenda nemo delectus magnam ratione odio est laborum asperiores, aliquid, unde magni accusantium dolorum. Velit, error. Unde molestiae laudantium placeat hic! Maiores quisquam beatae debitis similique minima provident reprehenderit quis eius voluptatibus vel libero ex quibusdam.</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-12 col-lg-6">
+          <!--3.Work-->
+          <div class="gy-5 d-flex align-items-center row">
+            <div class="cv-item col-12">
+              <h5>Work</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam vero repellendus assumenda nemo delectus magnam ratione odio est laborum asperiores, aliquid, unde magni accusantium dolorum. Velit, error. Unde molestiae laudantium placeat hic! Maiores quisquam beatae debitis similique minima provident reprehenderit quis eius voluptatibus vel libero ex quibusdam.</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-12 col-lg-6">
+          <!--4.work-->
+          <div class="gy-5 d-flex align-items-center row">
+            <div class="cv-item col-12">
+              <h5>Work</h5>
+              <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam vero repellendus assumenda nemo delectus magnam ratione odio est laborum asperiores, aliquid, unde magni accusantium dolorum. Velit, error. Unde molestiae laudantium placeat hic! Maiores quisquam beatae debitis similique minima provident reprehenderit quis eius voluptatibus vel libero ex quibusdam.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <!--Ability-->
+  <section id="aliceAbility" class="py-5">
+    <div class="container">
+    <header class="text-center mb-4">
+      <h2 class="text-light">Ability</h2>
+    </header>
+    <!--skill cards-->
+    <div class="d-flex align-items-center justify-content-around row">
+      <!-- card1 -->
+        <div class="card col-xl-2 col-md-5">
+          <!-- partA -->
+          <div id="cardA" class="card-body text-center">
+            <h5 class="card-title">
+              <i class="fas fa-highlighter fa-5x"></i>
+            </h5>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text"></p>
+          </div>
+          <!-- partB -->
+          <div id="cardB" class="card-body text-center">
+            <h5 class="card-title">
+              <i class="fas fa-highlighter fa-3x"></i>
+            </h5>
+              <h6 class="card-subtitle mb-2">視覺設計</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nemo, asperiores voluptatem dolor facilis.</p>
+          </div>
+        </div>
+      <!-- card2 -->
+      <div class="card col-xl-2 col-md-5">
+        <!-- partA -->
+        <div id="cardA" class="card-body text-center">
+          <h5 class="card-title">
+            <i class="fas fa-code fa-5x"></i>
+          </h5>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text"></p>
+        </div>
+        <!-- partB -->
+        <div id="cardB" class="card-body text-center">
+          <h5 class="card-title">
+            <i class="fas fa-code fa-3x"></i>
+          </h5>
+            <h6 class="card-subtitle mb-2">程式編程</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nemo, asperiores voluptatem dolor facilis.</p>
+        </div>
+      </div>
+      <!-- card3 -->
+      <div class="card col-xl-2 col-md-5">
+        <!-- partA -->
+        <div id="cardA" class="card-body text-center">
+          <h5 class="card-title">
+            <i class="fas fa-chart-line fa-5x"></i>
+          </h5>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text"></p>
+        </div>
+        <!-- partB -->
+        <div id="cardB" class="card-body text-center">
+          <h5 class="card-title">
+            <i class="fas fa-chart-line fa-3x"></i>
+          </h5>
+            <h6 class="card-subtitle mb-2">資料分析</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nemo, asperiores voluptatem dolor facilis.</p>
+        </div>
+      </div>
+      <!-- card4 -->
+      <div class="card col-xl-2 col-md-5">
+        <!-- partA -->
+        <div id="cardA" class="card-body text-center">
+          <h5 class="card-title">
+            <i class="fas fa-paper-plane fa-5x"></i>
+          </h5>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text"></p>
+        </div>
+        <!-- partB -->
+        <div id="cardB" class="card-body text-center">
+          <h5 class="card-title">
+            <i class="fas fa-paper-plane fa-3x"></i>
+          </h5>
+            <h6 class="card-subtitle mb-2">調查研究</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nemo, asperiores voluptatem dolor facilis.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Portfolio-->
+  <section id="alicePortfolio"  class="container py-5">
+    <article class="">
+      <div class="file row py-5 gy-4 d-inline-flex flex-wrap">
+        <!-- header -->
+        <div class="header text-center col-xs-12 col-md-5 gy-md-4">
+            <h2 class="text-light my-4">Portfolio</h2>
+            <p class="mx-3 text-light-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti ipsum placeat debitis cum aliquam odit rem? Minus eaque eligendi voluptatum delectus voluptatem saepe, beatae nostrum culpa, quidem modi accusantium a consectetur esse quam deleniti! Accusantium modi vero molestiae impedit?</p>
+        </div>
+        <!-- portfolio 1 -->
+      <div class="figure col-xs-12 col-md-7 gy-md-4">
+        <img src="https://picsum.photos/800/400/?random=1" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption text-center">
+            <a class="btn-close-white" href=""><i class="fas fa-link"></i></a>
+            <p>A caption for the above image.</p>
+          </figcaption>
+      </div>
+        <!-- portfolio 2 -->
+        <div class="figure col-xs-12 col-md-4 gy-md-4">
+          <img src="https://picsum.photos/400/400/?random=2" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption text-center">
+            <a class="btn-close-white" href=""><i class="fas fa-link"></i></a>
+            <p>A caption for the above image.</p>
+          </figcaption>
+        </div>
+        <!-- portfolio 3 -->
+        <div class="figure col-xs-12 col-md-4 gy-md-4">
+          <img src="https://picsum.photos/400/400/?random=3" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption text-center">
+            <a class="btn-close-white" href=""><i class="fas fa-link"></i></a>
+            <p>A caption for the above image.</p>
+          </figcaption>
+        </div>
+        <!-- portfolio 4 -->
+        <div class="figure col-xs-12 col-md-4 gy-md-4">
+          <img src="https://picsum.photos/400/400/?random=4" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption text-center">
+            <a class="btn-close-white" href=""><i class="fas fa-link"></i></a>
+            <p>A caption for the above image.</p>
+          </figcaption>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!--Contact Me-->
+  <section id="aliceContact" class="py-5 bg-dark text-light text-center">
+    <div class="container">
+      <header class="h2 text-light text-center mb-4">Contact Me</header>
+        <p class="text-center contact-email">Get in touch with me <i class="fas fa-long-arrow-alt-right"></i> 135ccat@gmail.com</p>
+      <div class="text-center contact-icons">
+        <p>Or find me on:</p>
+        <ul class="row justify-content-around mt-4">
+          <a class="col-auto" href="">
+            <i class="fab fa-codepen fa-2x"></i>
+            CodePen</a>
+          <a class="col-auto" href="">
+            <i class="fab fa-github fa-2x"></i>
+              Github</a>
+          <a class="col-auto" href="">
+            <i class="fab fa-facebook fa-2x"></i>
+            Facebook</a>
+          <a class="col-auto" href="">
+            <i class="fab fa-twitter fa-2x"></i>
+            Twitter</a>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer id="copyright" class="bg-dark text-muted text-center py-3">
+    <small>
+      Alice in Wonderland<br>
+      copyright &copy; <span class="text-warning">wonderland design</span> all right reserved.
+    </small>
+    <div id="aliceArrow" class="position-fixed">
+      <a href="#aliceAbout" class="btn">
+        <i class="bi bi-chevron-double-up" style="color: #eee;"></i>
+      </a>
+    </div>
+  </footer>
+  <script>
+    $("#aliceMenu a, #aliceArrow a").click(function(){
+      const who = $(this).attr('href');
+      //val=Menu連結錨點所在之絕對位置頂端的座標
+      const val = $(who).offset().top - $("#aliceMenu").innerHeight();
+      //點擊a連結後執行動畫
+      $("html").animate({scrollTop: val}, 100);
+    });
+
+  //nav hover
+  var hover1 = function() {
+    $("a.nav-link").eq(0).css({"text-decoration":"underline", "font-weight":"900"});
+    $("a.nav-link").eq(1).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(2).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(3).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(4).css({"text-decoration":"none", "font-weight":"400"});
+    // $("a.nav-link").eq(5).css("text-decoration", "none");
+  }
+  var hover2 = function() {
+    $("a.nav-link").eq(0).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(1).css({"text-decoration":"underline", "font-weight":"900"});
+    $("a.nav-link").eq(2).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(3).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(4).css({"text-decoration":"none", "font-weight":"400"});
+    // $("a.nav-link").eq(5).css("text-decoration", "none");
+  }
+  var hover3 = function() {
+    $("a.nav-link").eq(0).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(1).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(2).css({"text-decoration":"underline", "font-weight":"900"});
+    $("a.nav-link").eq(3).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(4).css({"text-decoration":"none", "font-weight":"400"});
+    // $("a.nav-link").eq(5).css("text-decoration", "none");
+  }
+  var hover4 = function() {
+    $("a.nav-link").eq(0).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(1).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(2).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(3).css({"text-decoration":"underline", "font-weight":"900"});
+    $("a.nav-link").eq(4).css({"text-decoration":"none", "font-weight":"400"});
+    // $("a.nav-link").eq(5).css("text-decoration", "none");
+  }
+  var hover5 = function() {
+    $("a.nav-link").eq(0).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(1).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(2).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(3).css({"text-decoration":"none", "font-weight":"400"});
+    $("a.nav-link").eq(4).css({"text-decoration":"underline", "font-weight":"900"});
+    // $("a.nav-link").eq(5).css("text-decoration", "none");
+  }
+
+// hover nav
+$("a.nav-link").eq(0).click(hover1);
+$("a.nav-link").eq(1).click(hover2);
+$("a.nav-link").eq(2).click(hover3);
+$("a.nav-link").eq(3).click(hover4);
+$("a.nav-link").eq(4).click(hover5);
+
+//列印網頁
+$('#downloadcv').on('click', function(){window.print()});
+
+//Portfolio
+/*let vague = document.getElementsByClassName("figure-img");
+ $(vague).mouseover(function(){
+  $(this).css("filter","blur(0.5rem)");
+
+});
+ */
+// $(vague).on('mouseenter', (function(){
+//   $(this).css("filter","blur(0.5rem)");
+//   setTimeout(function(){
+//   $(this).css("filter",'blur=""');
+//   }, 500);
+// }));
+// $(vague).on('mouseout', (function(){
+//   $(this).css("filter",'blur=""');
+//   })
+//   );
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+#card{
+    box-shadow: 3px 2px 5px 10px #8080806b;
+    border: 1px solid #eee8e8e3;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#header{
+    max-width: 500px;
+    height: 300px;
+    padding-top: 20px;
+}
+#img{
+  background: url("../flower2.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #45494C;
+    font-size: 1rem;
+    color: #959595;
+    padding: 8px 0;
+    margin-top: 20px;
+}
+.btn{
+    color: #a6a9ac;
+    background: #2e85be;
+    font-weight: 600;
+}
