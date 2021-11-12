@@ -265,4 +265,5 @@ footer{
   background-image: url("../rabbit.jpg");
   background-size: cover;
   height: 100%;
+  background-position:center center;
 }
