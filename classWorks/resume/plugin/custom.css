@@ -260,3 +260,9 @@ footer{
     page-break-inside: avoid;
   }
 }
+
+.portfolio2{
+  background-image: url("../rabbit.jpg");
+  background-size: cover;
+  height: 100%;
+}
